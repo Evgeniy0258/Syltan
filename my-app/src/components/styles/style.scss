@@ -1,0 +1,248 @@
+ body {
+     background-color: #E5E5E5;
+     margin: 0;
+ }
+
+ .header {
+     width: 1127px;
+     margin: 0 auto;
+
+     .header-info {
+         display: flex;
+         justify-content: space-evenly;
+
+         .header-contacts {
+             display: flex;
+             justify-content: space-evenly;
+             width: 40%;
+
+             h5 {
+                 margin-bottom: 0;
+             }
+
+             p {
+                 margin-top: 5px;
+                 font-size: 12px;
+             }
+         }
+
+         .nav-menu {
+             padding-top: 10px;
+
+             ul {
+                 display: flex;
+
+                 li {
+                     margin-right: 15px;
+                     list-style: none;
+
+                     a {
+                         text-decoration: none;
+                         color: black;
+                     }
+                 }
+             }
+
+         }
+     }
+
+     .header-main {
+         display: flex;
+         width: 100%;
+         justify-content: space-evenly;
+         height: 100%;
+
+         .button {
+             background-color: #FFC85E;
+             width: 17%;
+             height: 40px;
+             border-radius: 16px;
+             border: none;
+             margin-top: 5px;
+
+             a {
+                 color: white;
+                 text-decoration: none;
+             }
+
+         }
+
+         .input-search {
+             border-radius: 16px;
+             border: none;
+             padding-left: 20px;
+             background-color: #EDEDED;
+             width: 17%;
+             height: 40px;
+             margin-top: 5px;
+         }
+
+         .contacts-call {
+             a {
+                 color: black;
+                 margin: 0;
+
+                 h5 {
+                     margin: 0;
+                     font-size: 14px;
+                 }
+
+                 font-size: 10px;
+             }
+
+             p {
+                 font-size: 12px;
+                 margin-top: 2px;
+                 margin-bottom: 2px;
+             }
+         }
+     }
+ }
+
+ .main-catalog {
+     width: 1127px;
+     margin: 0 auto;
+
+     .pages {
+
+         margin: 20px;
+
+
+         .page,
+         .current-page {
+             border: 1px solid black;
+             border-radius: 100%;
+             padding: 5px 10px;
+             margin: 0 10px;
+             cursor: pointer;
+
+         }
+
+         .current-page {
+             border: 2px solid gray;
+             font-weight: 700;
+         }
+     }
+
+     .main-nav {
+         .main-links {
+             display: flex;
+             padding-left: 0;
+             width: 100%;
+
+             li {
+                 list-style: none;
+                 text-align: center;
+                 background-color: #FFFFFF;
+                 margin-right: 5px;
+                 padding: 10px 5px;
+                 border-radius: 5px;
+
+                 a {
+                     color: black;
+                     text-decoration: none;
+                     font-size: 14px;
+                     line-height: 17px;
+                 }
+             }
+         }
+     }
+
+     .main-container {
+         display: flex;
+         //  justify-content: space-between;
+         margin: 0 auto;
+
+
+         .main-catalog {
+             display: block;
+
+             .main-catalog__wrapper {
+                 border-radius: 3px;
+                 background: #fff;
+                 color: #474747;
+                 width: 25%;
+                 float: left;
+                 margin: 0 20px 20px 0;
+                 height: 250px;
+
+
+                 li {
+                     list-style: none;
+
+
+                     p {
+                         //  width: 50%;
+                         margin: 0;
+
+                     }
+                 }
+
+             }
+
+         }
+     }
+ }
+
+ .footer {
+     background-color: #3F4E65;
+
+
+
+     .footer-items {
+         width: 1127px;
+         display: flex;
+         justify-content: space-evenly;
+         margin: 0 auto;
+         height: 350px;
+         color: white;
+
+         a {
+             color: white;
+             text-decoration: none;
+         }
+
+
+         .footer-info {
+             width: 25%;
+             margin-top: 50px;
+
+         }
+
+         .footer-menu {
+             margin-top: 50px;
+
+             li {
+                 list-style: none;
+                 margin-bottom: 15px;
+             }
+         }
+
+         .footer-category {
+             margin-top: 50px;
+
+             li {
+                 list-style: none;
+                 margin-bottom: 15px;
+             }
+         }
+
+         .footer-download {
+             margin-top: 50px;
+
+             li {
+                 list-style: none;
+                 margin-bottom: 15px;
+             }
+         }
+
+         .footer-contacts {
+             margin-top: 50px;
+
+             li {
+                 list-style: none;
+                 margin-bottom: 15px;
+             }
+         }
+     }
+ }
